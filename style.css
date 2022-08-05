@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 height:100%;
-width: 1366px;
+width: 100%;
 
 background-image: url(./images/animatedPlan.png);
 background-repeat: no-repeat;
@@ -130,7 +130,7 @@ display: flex;
   font-family: Arial;
   font-size: 20px;
   font-weight: bold;
-  
+
 }
 .right2{
   display: flex;
@@ -153,7 +153,7 @@ display: flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width:1366PX;
+  width:1366px;
 height: 120%;
   /* margin-top: 30px; */
   margin: 30px 0px 0px 0px;
@@ -163,9 +163,12 @@ height: 120%;
 .top2{
   display: flex;
 width: 602px;
+
     font-size: 35px;
     margin-left: 600px;
+
     margin-right: 164px;
+
     margin-top: 10px;
     font-family: sans-serif;
     font-weight: bold;
@@ -177,6 +180,7 @@ width: 602px;
   justify-content: flex-start;
   flex-direction: column;
   margin-left: 600px;
+
 }
 
 .bottom2_top{
@@ -184,29 +188,35 @@ width: 602px;
   flex-direction: row;
   justify-content: flex-start;
 width: 766px;
+
 }
 .bottom2_bottom{
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
 width: 766px;
+
 }
 .bottom2_1{
 
   margin: 50px 60px 10px 0;
+
   border-top: 1px solid black;
 }
 .bottom2_2{
     margin: 50px 131px 10px 0;
+
   border-top: 1px solid black;
 }
 .bottom2_3{
 
   margin: 30px 60px 50px 0;
+
   border-top: 1px solid black;
 }
 .bottom2_4{
     margin: 30px 131px 50px 0;
+
   border-top: 1px solid black;
 }
 .bottom2_content>p{
@@ -329,4 +339,174 @@ white-space: nowrap;
    */
 width: 75%;
 height: 100%;
+}
+/* ******************************fourth page styling*********************** */
+
+.fourthPage{                                           /*fourth  page style*/
+  display: flex;
+
+flex-direction: column;
+justify-content: center;
+  height:120%;
+
+width: 1366px;
+
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.heading{
+  width: 512.25px;
+  margin-bottom: 42.6875px;
+  margin-left: 110px;
+  font-size: 50px;
+  font-family: helvetica;
+letter-spacing: -0.05em;
+}
+.image{
+  display: flex;
+  width: 569.16px;
+  height: 441.8px;
+}
+.barcelonaimage{
+  width: 569.16px;
+  height: 441.8px;
+  border-bottom-right-radius: 50px;
+}
+.destinationNames{
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.destinationNames_top{
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+.destinationNames_bottom{
+  display: flex;
+
+  justify-content: space-between;
+width: auto;
+}
+.barcelonaGRO{
+  display: flex;
+  flex-direction: column;
+font-family: helvetica;
+font-weight: bold;
+  border-top: 1px solid lightgrey;
+border-bottom: 1px solid lightgrey;
+border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 256px;
+  height: 100%;
+
+}
+.IbizaIBZ{
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica;
+  font-weight: bold;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 256px;
+  height: 100%;
+  margin-left: 30px;
+}
+.CannesCEQ{
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+  /* border-top: 1px solid lightgrey; */
+  border-bottom-right-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 256px;
+  height: 100%;
+}
+.ParisLBG{
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+  /* border-top: 1px solid lightgrey; */
+  border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 256px;
+  height: 100%;
+  margin-left: 30px;
+}
+.barcelonaGRO> span{
+  font-style: helvetica;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  margin-top: 50%;
+}
+.IbizaIBZ> span{
+  font-style: helvetica;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  margin-top: 50%;
+}
+.CannesCEQ> span{
+  font-style: helvetica;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  margin-top: 50%;
+}
+.ParisLBG> span{
+  font-style: helvetica;
+  font-weight: lighter;
+  margin-bottom: 10px;
+margin-top: 50%;
+}
+
+/* **************************fifth page styling************************* */
+.fifthPage{
+  display: flex;
+  width: 1366px;
+  height: 120%;
+
+}
+.left_5{
+  width: 45%;
+  height:100%;
+  background-color: rgb(11,12,25);
+}
+.right_5{
+  width: 55%;
+  height:100%;
+  background-color: rgb(22,23,35);
+}
+.right_5>p{
+  margin-top: 370px;
+  color: white;
+margin-left: 60px;
+margin-right: 50px;
+font-size: 19px;
+font-family: sans-serif;
+}
+.right_5>h1{
+  font-size: 60px;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 60px;
 }

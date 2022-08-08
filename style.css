@@ -510,3 +510,566 @@ font-family: sans-serif;
   color: white;
   margin-left: 60px;
 }
+/* ***********************************sixth page********************************* */
+
+
+.sixthPage{                     /*  ***********sixt page styling********* */
+display: flex;
+flex-direction: column;
+width: 1366px;
+height: auto;
+}
+.experience_heading{                         /************main heading div***********/
+  width: 800px;
+  height: auto;
+}
+.experience_heading_style{                   /************main heading styling***********/
+  font-family: helvetica, Arial, monospace;
+  font-size: 170px;
+  letter-spacing: -0.05em;
+line-height: 0.8em;
+margin-top: 20px;
+margin-left: 50px;
+margin-bottom: 90px;
+}
+
+ /*************************experience body main div*********************************/
+
+.experience_body{
+  display: flex;
+  justify-content: flex-start;
+width:1366px;
+height: auto;
+
+}
+
+/*******experience body left column paragraph styling********/
+
+.experience_body_left{
+  width: 643px;
+height: auto;
+}
+.experience_body_left>p{
+  font-family: helvetica;
+  font-size: 17px;
+  margin-left: 60px;
+  margin-top: 0px;
+  margin-right: 250px;
+}
+
+                                                        /************experience body right div***********/
+.experience_body_right{
+  display: flex;
+  flex-direction: column;
+  width: 723px;
+  height: auto;
+}
+.experience_body_right_top{                  /*********experience right top styling**************/
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  width: 723px;
+}
+.experience_body_right_center{              /************experience right center styling***********/
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  width: 723px;
+}
+.experience_body_right_bottom{              /************experience right bottom styling***********/
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  width: 723px;
+}
+
+/************experience right top left style***********/
+
+.experience_body_right_top_lft{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+                                                    /************experience right top right style***********/
+.experience_body_right_top_rht{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/************experience right center left style***********/
+.experience_body_right_center_lft{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+width: 1462px;
+}
+
+                                                      /************experience right center right style***********/
+.experience_body_right_center_rht{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/************experience right bottom left style***********/
+.experience_body_right_bottom_lft{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+width: 1608px;
+}
+
+                                                    /************experience right bottom right style***********/
+.experience_body_right_bottom_rht{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* *****************************experience body right top left div styling*************** */
+.experience_body_right_top_lft> div{
+  width:90px;
+  height:90px;
+  border: 1px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 30px;
+}
+
+.experience_body_right_top_lft> div svg{
+  width:40px;
+  height:40px;
+/* margin-left: 20px; */
+}
+
+.experience_body_right_top_lft> span{
+  font-family: sans-serif;
+  font-size: 20px;
+font-weight: bolder;
+margin-top: 30px;
+}
+.experience_body_right_top_lft> p{
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-right: 40px;
+}
+
+/* *****************************experience body right top right div styling*************** */
+
+.experience_body_right_top_rht> div{
+  width:90px;
+  height:90px;
+  border: 1px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 30px;
+}
+.experience_body_right_top_rht> div svg{
+  width:40px;
+  height:40px;
+/* margin-left: 20px; */
+}
+.experience_body_right_top_rht> span{
+  font-family: sans-serif;
+  font-size: 20px;
+font-weight: bolder;
+margin-top: 30px;
+}
+.experience_body_right_top_rht> p{
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-right: 50px;
+}
+
+
+/* *****************************experience body right center left div styling*************** */
+.experience_body_right_center_lft> div{
+  width:90px;
+  height:90px;
+  border: 1px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 30px;
+}
+
+.experience_body_right_center_lft> div svg{
+  width:40px;
+  height:40px;
+/* margin-left: 20px; */
+}
+
+.experience_body_right_center_lft> span{
+  font-family: sans-serif;
+  font-size: 20px;
+font-weight: bolder;
+margin-top: 30px;
+}
+.experience_body_right_center_lft> p{
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-right: 40px;
+}
+
+/* *****************************experience body right center right div styling*************** */
+
+.experience_body_right_center_rht> div{
+  width:90px;
+  height:90px;
+  border: 1px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 30px;
+}
+.experience_body_right_center_rht> div svg{
+  width:40px;
+  height:40px;
+/* margin-left: 20px; */
+}
+.experience_body_right_center_rht> span{
+  font-family: sans-serif;
+  font-size: 20px;
+font-weight: bolder;
+margin-top: 30px;
+}
+.experience_body_right_center_rht> p{
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-right: 50px;
+}
+
+/* *****************************experience body right bottom left div styling*************** */
+.experience_body_right_bottom_lft> div{
+  width:90px;
+  height:90px;
+  border: 1px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 30px;
+}
+
+.experience_body_right_bottom_lft> div svg{
+  width:40px;
+  height:40px;
+/* margin-left: 20px; */
+}
+
+.experience_body_right_bottom_lft> span{
+  font-family: sans-serif;
+  font-size: 20px;
+font-weight: bolder;
+margin-top: 30px;
+}
+.experience_body_right_bottom_lft> p{
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-right: 40px;
+}
+
+/* *****************************experience body right bottom right div styling*************** */
+
+.experience_body_right_bottom_rht> div{
+  width:90px;
+  height:90px;
+  border: 1px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 30px;
+}
+.experience_body_right_bottom_rht> div svg{
+  width:40px;
+  height:40px;
+/* margin-left: 20px; */
+}
+.experience_body_right_bottom_rht> span{
+  font-family: sans-serif;
+  font-size: 20px;
+font-weight: bolder;
+margin-top: 30px;
+}
+.experience_body_right_bottom_rht> p{
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-right: 50px;
+}
+/* ****************************experience button style************************ */
+
+.experience_button{
+  color: white;
+  font-family: sans-serif;
+  background-color: black;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  border-radius: 30px;
+}
+/* *********************************experience image style************************* */
+
+.experience_image{
+  width:1252;
+  height:704;
+  margin-left: 60px;
+}
+
+
+/* *****************************seventh page************************************ */
+
+.seventhPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 1366px;
+  background-image: url(./images/clouds.png);
+  filter: brightness(90%);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.seventhPage{
+  font-size: 30px;
+font-family: sans-serif;
+color: grey;
+}
+
+.bookingButton> button{
+  font-size: 120px;
+
+  font-family: sans-serif;
+  font-weight: bold;
+  opacity: 1;
+  border-style: none;
+  background-color: transparent;
+}
+
+/* ***********************************footer page*************************** */
+
+.footerPage{
+  display: flex;
+  flex-direction: column;
+justify-content: space-around;
+  width: 1366px;
+  height: auto;
+background-color: black;
+color: white;
+}
+.footerLogo>svg{
+  width:100px;
+  height: 100px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.footerCenter{
+  display: flex;
+  justify-content: flex-start;
+}
+.footerCenter_left{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 517px;
+}
+.footerCenter_left> ul{
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: white; */
+list-style: none;
+}
+.footerCenter_left> ul li{
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-right: 5px;
+  border-radius: 50px;
+}
+.footerCenter_left>span{
+  margin-left: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.svg>svg{
+  color: black;
+  width: 20px;
+  height: 20px;
+}
+/* *********************************footer page center right********************* */
+.footerCenter_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 850px;
+}
+.footerCenter_right_top{
+  display: flex;
+  justify-content: flex-start;
+}
+.footerCenter_right_top> div{
+  margin-right: 100px;
+
+}
+.footerCenter_right_top_1>h4{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+margin-top: 0px;
+font-size: 20px;
+}
+.footerCenter_right_top_1>ul{
+  color: grey;
+  list-style: none;
+  line-height: 30px;
+padding-left: 0px;
+font-family: sans-serif;
+font-size: 18px;
+}
+
+
+.footerCenter_right_top_2>h4{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+margin-top: 0px;
+font-size: 20px;
+}
+.footerCenter_right_top_2>ul{
+  color: grey;
+  line-height: 30px;
+  list-style: none;
+padding-left: 0px;
+font-family: sans-serif;
+font-size: 18px;
+}
+
+
+.footerCenter_right_top_3>h4{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+margin-top: 0px;
+font-size: 20px;
+}
+.footerCenter_right_top_3>ul{
+  color: grey;
+  list-style: none;
+  line-height: 30px;
+padding-left: 0px;
+font-family: sans-serif;
+font-size: 18px;
+}
+
+/* ******************************center bottom**************************** */
+.footerCenter_right_bottom{
+  justify-content: flex-start;
+  display: flex;
+}
+.footerCenter_right_bottom> div{
+  margin-right: 129px;
+}
+.footerCenter_right_bottom_1>h4{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+margin-top: 0px;
+font-size: 20px;
+}
+.footerCenter_right_bottom_1>ul{
+  color: grey;
+line-height: 30px;
+  list-style: none;
+padding-left: 0px;
+font-family: sans-serif;
+font-size: 18px;
+}
+
+
+.footerCenter_right_bottom_2>h4{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+margin-top: 0px;
+font-size: 20px;
+}
+.footerCenter_right_bottom_2>ul{
+  color: grey;
+  line-height: 30px;
+  list-style: none;
+padding-left: 0px;
+font-family: sans-serif;
+font-size: 18px;
+}
+
+/* ****************************footer bottom***************************** */
+
+.footerBottom{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* ********************************left*************************** */
+.footerBottom_lft{
+  display: flex;
+  flex-direction: column;
+  width: 517px;
+}
+.footerBottom_lft>span{
+  margin-left:40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footerBottom_lft>p{
+  margin-left:40px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: grey;
+  width: 300px;
+}
+/* **********************************right***************************** */
+.footerBottom_rht{
+  display: flex;
+  flex-direction: column;
+width: 850px;
+  align-items: flex-start;
+}
+.footerBottom_rht>ul{
+  display: flex;
+  justify-content: flex-start;
+margin-top: 0px;
+  list-style: none;
+
+  color: grey;
+  padding-left: 0px;
+}
+.firstlist{
+  margin-right: 100px;
+  font-size: 20px;
+  margin-left: 0px;
+}
+.secondlist{
+  margin-right: 70px;
+  font-size: 20px;
+}
+
+.thirdlist{
+
+  font-size: 20px;
+}
+.footerBottom_rht>p{
+  color: grey;
+  font-family: sans-serif;
+  font-size: 15px;
+width:770px;
+}

@@ -244,7 +244,7 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
   height: 100%;
-  width: auto;
+  width: 33.33%;
   background-color: black;
   color: white;
 }
@@ -252,29 +252,32 @@ width: 100%;
 
 
 .thirdpage_1>h1{
-  padding: 47.574px 20px 51.33px 52.6px;
+  padding: 7.611% 4.39% 8.2128% 11.55%;
   font-family: sans-serif;
   /* font-size: 25px; */
-width: 150px;
+width: 32.94%;
 }
 .content1{                                                    /*thirdpage column 1 top heading*/
   font-family: sans-serif;
   display: flex;
-  margin-left: 53.34px;
-  margin-right: 54px;
-      margin-bottom: 20px;
-  width:348px;
-  font-size: 20px;
+  margin-left: 11.71%;
+  margin-right: 11.8%;
+      margin-bottom: 3.2%;
+  width:76.433%;
+  font-size: 125%;
   flex-direction: column;
   justify-content: space-around;
 }
 .thirdpage_1_button{                                          /*thirdpage column 1 bottom submit button*/
 background-color: black;
 border: 1px solid white;
+font-size: 74%;
+width: 40.04%;
 font-family: sans-serif;
 border-radius: 20px;
-padding: 12px 2px;
-margin: 0 240px 0 0;
+padding: 12px 0.57%;
+
+margin: 0 68.96% 0 0;
 color: white;
 font-weight: bold;
 }
@@ -282,12 +285,13 @@ font-weight: bold;
 .thirdpage_2{                                               /*thirdpage column 2*/
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
   font-family: sans-serif;
 
   height: 100%;
-  width: auto;
+  width: 33.33%;
   background-image: url(./images/aircraft.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -296,15 +300,17 @@ font-weight: bold;
   }
 .thirdpage_2>h1{                                              /*thirdpage column 2 bottom only heading*/
 
-
-    margin-left: 137.87px;
-    margin-right: 137.87px;
+font-size: 2.5vw;
+    margin-left: 30.24%;
+    margin-right: 30.24%;
     font-family: sans-serif;
     color: white;
     white-space: nowrap;
+    width:39.4%
 }
 .thirdpage_2>h1>span{                                         /*thirdpage column 2 heading span*/
   color:black;
+margin: 0px;
 }
 
 /* ********************third page->right column styling*********** */
@@ -314,8 +320,9 @@ font-weight: bold;
   display: flex;
 flex-direction: column;
   justify-content:  flex-end;
+  align-items: center;
   height: 100%;
-  width: auto;
+  width: 33.33%;
   background-color: #BC7155;
 white-space: nowrap;
 
@@ -323,18 +330,16 @@ white-space: nowrap;
 
 .thirdpage_3>h1{                                              /*thirdpage column 3 bottom heading*/
   font-family: sans-serif;
-
-  margin-top:200px;
-  margin-left: 114px;
-  margin-right: 114px;
+font-size: 2.5vw;
+  margin-top:32%;
+  margin-left: 25.0395361096%;
+  margin-right: 25.0395361096%;
   color:white;
 }
 .thirdpage_3>svg{
-  /* margin-top: 50px; */
-  margin-left:100px;
-  /* width:355.3px;
-  height:330px;
-   */
+
+  margin-left:22%;
+
 width: 75%;
 height: 100%;
 }
@@ -345,9 +350,9 @@ height: 100%;
 
 flex-direction: column;
 justify-content: center;
-  height:120%;
+  height:auto;
 
-width: 1366px;
+width: 100%;
 
 }
 
@@ -357,40 +362,43 @@ width: 1366px;
   width: auto;
 }
 .heading{
-  width: 512.25px;
-  margin-bottom: 42.6875px;
-  margin-left: 110px;
-  font-size: 50px;
+  width: 37.5%;
+  margin-top: 5%;
+  margin-bottom: 5.7%;
+  margin-left: 8.05%;
+  font-size: 3.7vw;
   font-family: helvetica;
 letter-spacing: -0.05em;
 }
 .image{
   display: flex;
-  width: 569.16px;
-  height: 441.8px;
+  width: 41.6%;
+  height: 58.9%;
+  margin-bottom: 10%;
 }
 .barcelonaimage{
-  width: 569.16px;
+  width: 100%;
   height: 441.8px;
   border-bottom-right-radius: 50px;
 }
 .destinationNames{
   display: flex;
-  width: auto;
+  width: 37%;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 30px;
+  margin-left: 5.53%;
+  margin-bottom: 10%;
 }
 .destinationNames_top{
   display: flex;
-  width: auto;
+  width: 100%;
   justify-content: space-between;
 }
 .destinationNames_bottom{
   display: flex;
 
   justify-content: space-between;
-width: auto;
+width: 100%;
 }
 .barcelonaGRO{
   display: flex;
@@ -403,7 +411,7 @@ border-bottom-right-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 256px;
+  width: 44.15%;
   height: 100%;
 
 }
@@ -418,9 +426,9 @@ border-bottom-right-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 256px;
+  width: 44.15%;
   height: 100%;
-  margin-left: 30px;
+  margin-left: 11.7%;
 }
 .CannesCEQ{
   display: flex;
@@ -428,13 +436,13 @@ border-bottom-right-radius: 50px;
   font-family: helvetica;
   font-weight: bold;
   border-bottom: 1px solid lightgrey;
-  /* border-top: 1px solid lightgrey; */
+  
   border-bottom-right-radius: 50px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 256px;
+  width: 44.15%;
   height: 100%;
 }
 .ParisLBG{
@@ -443,14 +451,14 @@ border-bottom-right-radius: 50px;
   font-family: helvetica;
   font-weight: bold;
   border-bottom: 1px solid lightgrey;
-  /* border-top: 1px solid lightgrey; */
+
   border-bottom-right-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 256px;
+  width: 44.15%;
   height: 100%;
-  margin-left: 30px;
+  margin-left: 11.7%;
 }
 .barcelonaGRO> span{
   font-style: helvetica;

@@ -44,7 +44,7 @@ svg{
 .nav_items>ul>li{
   margin: 0 15px 65.217% 15px;
   list-style: none;
-  font-size: 135%;
+  font-size: 1.7vw;
   position: relative;
   display: flex;
   font-family: helvetica;
@@ -126,7 +126,7 @@ display: flex;
 
   margin-left: 3.8%;
   font-family: Arial;
-  font-size: 125%;
+  font-size: 1.6vw;
   font-weight: bold;
 
 }
@@ -140,7 +140,7 @@ display: flex;
   background-color: black;
   color: white;
   font-size: 18px;
-  padding: 12px;
+  padding: 1.92% 12px;
   border-radius: 25px;
   font-family: sans-serif;
   font-weight: bold;
@@ -161,7 +161,7 @@ height: auto;
   display: flex;
 width: 44.07%;
 
-    font-size: 218.75%;
+    font-size: 2.56vw;
     margin-left: 44%;
 
     margin-right: 12%;
@@ -219,7 +219,7 @@ height: auto;
   border-top: 1px solid black;
 }
 .bottom2_content>p{
-  font-size: 143.75%;
+  font-size: 1.7vw;
 color: rgb(160,160,160);
 }
 
@@ -254,7 +254,7 @@ width: 100%;
 .thirdpage_1>h1{
   padding: 7.611% 4.39% 8.2128% 11.55%;
   font-family: sans-serif;
-  /* font-size: 25px; */
+
 width: 32.94%;
 }
 .content1{                                                    /*thirdpage column 1 top heading*/
@@ -264,14 +264,14 @@ width: 32.94%;
   margin-right: 11.8%;
       margin-bottom: 3.2%;
   width:76.433%;
-  font-size: 125%;
+  font-size: 1.6vw;
   flex-direction: column;
   justify-content: space-around;
 }
 .thirdpage_1_button{                                          /*thirdpage column 1 bottom submit button*/
 background-color: black;
 border: 1px solid white;
-font-size: 74%;
+font-size: 1.05vw;
 width: 40.04%;
 font-family: sans-serif;
 border-radius: 20px;
@@ -378,7 +378,7 @@ letter-spacing: -0.05em;
 }
 .barcelonaimage{
   width: 100%;
-  height: 441.8px;
+  height: 56.3%;
   border-bottom-right-radius: 50px;
 }
 .destinationNames{
@@ -463,25 +463,25 @@ border-bottom-right-radius: 50px;
 .barcelonaGRO> span{
   font-style: helvetica;
   font-weight: lighter;
-  margin-bottom: 10px;
+  margin-bottom: 1.34%;
   margin-top: 50%;
 }
 .IbizaIBZ> span{
   font-style: helvetica;
   font-weight: lighter;
-  margin-bottom: 10px;
+  margin-bottom: 1.34%;
   margin-top: 50%;
 }
 .CannesCEQ> span{
   font-style: helvetica;
   font-weight: lighter;
-  margin-bottom: 10px;
+  margin-bottom: 1.34%;
   margin-top: 50%;
 }
 .ParisLBG> span{
   font-style: helvetica;
   font-weight: lighter;
-  margin-bottom: 10px;
+  margin-bottom: 1.34%;
 margin-top: 50%;
 }
 
@@ -513,11 +513,11 @@ margin-top: 50%;
 margin-left: 8.89%;
 margin-right: 7.412%;
 margin-bottom: 9.9%;
-font-size: 19px;
+font-size: 1.4vw;
 font-family: sans-serif;
 }
 .right_5>h1{
-  font-size: 60px;
+  font-size: 4.39vw;
   font-family: sans-serif;
   color: white;
   margin-left: 8.89%;
@@ -537,7 +537,7 @@ height: 350%;
 }
 .experience_heading_style{                   /************main heading styling***********/
   font-family: helvetica, Arial, monospace;
-  font-size: 170px;
+  font-size: 12.45vw;
   letter-spacing: -0.05em;
 line-height: 0.8em;
 margin-top: 6.25%;
@@ -563,7 +563,7 @@ height: 100%;
 }
 .experience_body_left>p{
   font-family: helvetica;
-  font-size: 17px;
+  font-size: 1.28vw;
   margin-left: 9.33%;
   margin-top: 0%;
   margin-right: 38.88%;
@@ -628,13 +628,14 @@ height: 100%;
   flex-direction: column;
   justify-content: space-around;
 width: 50%;
-height: 100%;
+height: 107%;
 }
 /************experience right bottom left style***********/
 .experience_body_right_bottom_lft{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+margin-top: 1.14%;
 width: 50%;
 height: 100%;
 }
@@ -644,6 +645,7 @@ height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-top: 1.14%;
 width: 50%;
 height: 100%;
 }
@@ -662,17 +664,17 @@ height: 100%;
 .experience_body_right_top_lft> div svg{
   width:43.48%;
   height:43.49%;
-/* margin-left: 20px; */
+
 }
 
 .experience_body_right_top_lft> span{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 font-weight: bolder;
 margin-top: 10.13%;
 }
 .experience_body_right_top_lft> p{
-  font-size: 19px;
+  font-size: 1.4vw;
   font-family: sans-serif;
   margin-right: 11.06%;
 }
@@ -695,12 +697,12 @@ margin-top: 10.13%;
 }
 .experience_body_right_top_rht> span{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 font-weight: bolder;
 margin-top: 10.13%;
 }
 .experience_body_right_top_rht> p{
-  font-size: 19px;
+  font-size: 1.4vw;
   font-family: sans-serif;
   margin-right: 13.83%;
 }
@@ -725,12 +727,12 @@ margin-top: 10.13%;
 
 .experience_body_right_center_lft> span{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 font-weight: bolder;
 margin-top: 10.13%;
 }
 .experience_body_right_center_lft> p{
-  font-size: 19px;
+  font-size: 1.4vw;
   font-family: sans-serif;
   margin-right: 11.06%;
 }
@@ -739,7 +741,7 @@ margin-top: 10.13%;
 
 .experience_body_right_center_rht> div{
   width:24.9%;
-  height:30.41%;
+  height:28.45%;
   border: 1px dashed black;
   display: flex;
   align-items: center;
@@ -749,16 +751,16 @@ margin-top: 10.13%;
 .experience_body_right_center_rht> div svg{
   width:43.48%;
   height:43.49%;
-/* margin-left: 20px; */
+
 }
 .experience_body_right_center_rht> span{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 font-weight: bolder;
 margin-top: 10.13%;
 }
 .experience_body_right_center_rht> p{
-  font-size: 19px;
+  font-size: 1.4vw;
   font-family: sans-serif;
   margin-right: 13.83%;
 }
@@ -777,17 +779,17 @@ margin-top: 10.13%;
 .experience_body_right_bottom_lft> div svg{
   width:43.48%;
   height:43.49%;
-/* margin-left: 20px; */
+
 }
 
 .experience_body_right_bottom_lft> span{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 font-weight: bolder;
-margin-top: 10.13%;
+margin-top: 9.1%;
 }
 .experience_body_right_bottom_lft> p{
-  font-size: 19px;
+  font-size: 1.4vw;
   font-family: sans-serif;
   margin-right: 11.06%;
 }
@@ -806,16 +808,16 @@ margin-top: 10.13%;
 .experience_body_right_bottom_rht> div svg{
   width:43.48%;
   height:43.49%;
-/* margin-left: 20px; */
+
 }
 .experience_body_right_bottom_rht> span{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 font-weight: bolder;
-margin-top: 10.13%;
+margin-top: 9%;
 }
 .experience_body_right_bottom_rht> p{
-  font-size: 19px;
+  font-size: 1.4vw;
   font-family: sans-serif;
   margin-right: 13.83%;
 }
@@ -828,12 +830,12 @@ margin-top: 10.13%;
   color: white;
   font-family: sans-serif;
   background-color: black;
-  padding: 12px 12px;
+  padding: 0.55% 0.87%;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.6vw;
   margin-left: 4.4%;
-  margin-top: 20px;
-  margin-bottom: 80px;
+  margin-top: 0.91%;
+  margin-bottom: 3.65%;
   border-radius: 30px;
 }
 /* *********************************experience image style************************* */
@@ -862,11 +864,9 @@ margin-top: 10.13%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.seventhPage{
   font-size: 2.2vw;
-font-family: sans-serif;
-color: grey;
+  font-family: sans-serif;
+  color: grey;
 }
 
 .bookingButton> button{
@@ -937,14 +937,14 @@ height: 9.2%;
   margin-left: 8.4%;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.85vw;
   width: 92.25%;
   height: 9.2%;
 }
 .svg>svg{
   color: black;
-  width: 20px;
-  height: 20px;
+  width: 1.6vw;
+  height: 3.4vh;
 }
 /* *********************************footer page center right********************* */
 .footerCenter_right{
@@ -969,7 +969,7 @@ height: 9.2%;
   font-family: sans-serif;
   font-weight: bold;
 margin-top: 0px;
-font-size: 20px;
+font-size: 1.6vw;
 }
 .footerCenter_right_top_1>ul{
   color: grey;
@@ -977,7 +977,7 @@ font-size: 20px;
   line-height: 30px;
 padding-left: 0px;
 font-family: sans-serif;
-font-size: 18px;
+font-size: 1.3vw;
 }
 
 
@@ -986,7 +986,7 @@ font-size: 18px;
   font-family: sans-serif;
   font-weight: bold;
 margin-top: 0px;
-font-size: 20px;
+font-size: 1.6vw;
 }
 .footerCenter_right_top_2>ul{
   color: grey;
@@ -994,7 +994,7 @@ font-size: 20px;
   list-style: none;
 padding-left: 0px;
 font-family: sans-serif;
-font-size: 18px;
+font-size: 1.3vw;
 }
 
 
@@ -1003,7 +1003,7 @@ font-size: 18px;
   font-family: sans-serif;
   font-weight: bold;
 margin-top: 0px;
-font-size: 20px;
+font-size: 1.6vw;
 }
 .footerCenter_right_top_3>ul{
   color: grey;
@@ -1011,7 +1011,7 @@ font-size: 20px;
   line-height: 30px;
 padding-left: 0px;
 font-family: sans-serif;
-font-size: 18px;
+font-size: 1.3vw;
 }
 
 /* ******************************center bottom**************************** */
@@ -1029,7 +1029,7 @@ font-size: 18px;
   font-family: sans-serif;
   font-weight: bold;
 margin-top: 0px;
-font-size: 20px;
+font-size: 1.6vw;
 }
 .footerCenter_right_bottom_1>ul{
   color: grey;
@@ -1037,7 +1037,7 @@ line-height: 30px;
   list-style: none;
 padding-left: 0px;
 font-family: sans-serif;
-font-size: 18px;
+font-size: 1.3vw;
 }
 
 
@@ -1046,7 +1046,7 @@ font-size: 18px;
   font-family: sans-serif;
   font-weight: bold;
 margin-top: 0px;
-font-size: 20px;
+font-size: 1.6vw;
 }
 .footerCenter_right_bottom_2>ul{
   color: grey;
@@ -1054,7 +1054,7 @@ font-size: 20px;
   list-style: none;
 padding-left: 0px;
 font-family: sans-serif;
-font-size: 18px;
+font-size: 1.3vw;
 }
 
 /* ****************************footer bottom***************************** */
@@ -1075,7 +1075,7 @@ font-size: 18px;
 }
 .footerBottom_lft>span{
   margin-left:7.83%;
-  font-size: 18px;
+  font-size: 1.3vw;
   font-family: sans-serif;
   font-weight: bold;
   margin-bottom: 2.6%;
@@ -1084,7 +1084,7 @@ font-size: 18px;
 }
 .footerBottom_lft>p{
   margin-left:7.73%;
-  font-size: 15px;
+  font-size: 1.1vw;
   font-family: sans-serif;
   color: grey;
   width: 58.02%;
@@ -1109,21 +1109,21 @@ height: 17%;
 }
 .firstlist{
   margin-right: 12.7%;
-  font-size: 20px;
+  font-size: 1.6vw;
   margin-left: 0px;
 }
 .secondlist{
   margin-right: 8.4%;
-  font-size: 20px;
+  font-size: 1.6vw;
 }
 
 .thirdlist{
 
-  font-size: 20px;
+  font-size: 1.6vw;
 }
 .footerBottom_rht>p{
   color: grey;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 1.1vw;
 width:90.65%;
 }
